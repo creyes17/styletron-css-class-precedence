@@ -1,21 +1,21 @@
 import React from 'react';
+import {BrowserRouter, NavLink} from 'react-router-dom';
+import {Client} from 'styletron-engine-atomic';
+import {Provider as StyletronProvider} from 'styletron-react';
+
+import MenuTemplate from './Menu';
+
+const client = new Client();
+
+const Menu = MenuTemplate(client);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyletronProvider value={client}>
+      <BrowserRouter>
+        <Menu />
+      </BrowserRouter>
+    </StyletronProvider>
   );
 }
 
