@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, NavLink} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import {Client} from 'styletron-engine-atomic';
 import {Provider as StyletronProvider} from 'styletron-react';
 
