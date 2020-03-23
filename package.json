@@ -1,0 +1,30 @@
+{
+  "name": "styletron-css-class-precedence",
+  "version": "1.0.0",
+  "description": "Trying to figure out how to manipulate CSS precedence between classes using Styletron without \"!important\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creyes17/styletron-css-class-precedence.git"
+  },
+  "keywords": [
+    "styletron",
+    "css"
+  ],
+  "author": "Christopher R. Reyes",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/creyes17/styletron-css-class-precedence/issues"
+  },
+  "homepage": "https://github.com/creyes17/styletron-css-class-precedence#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
+  }
+}
