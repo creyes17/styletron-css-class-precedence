@@ -1,30 +1,53 @@
 {
-  "name": "styletron-css-class-precedence",
-  "version": "1.0.0",
+  "author": "Christopher R. Reyes",
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/creyes17/styletron-css-class-precedence/issues"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
+  },
   "description": "Trying to figure out how to manipulate CSS precedence between classes using Styletron without \"!important\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creyes17/styletron-css-class-precedence.git"
-  },
+  "homepage": "https://github.com/creyes17/styletron-css-class-precedence#readme",
   "keywords": [
     "styletron",
     "css"
   ],
-  "author": "Christopher R. Reyes",
   "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/creyes17/styletron-css-class-precedence/issues"
+  "main": "index.js",
+  "name": "styletron-css-class-precedence",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creyes17/styletron-css-class-precedence.git"
   },
-  "homepage": "https://github.com/creyes17/styletron-css-class-precedence#readme",
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
-    "styletron-engine-atomic": "^1.4.6",
-    "styletron-react": "^5.2.7"
-  }
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "version": "0.1.0"
 }
